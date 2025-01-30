@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(68, 64, 64);
+    color: rgb(245, 242, 242);
+    min-height: 100px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+  padding-right: 50px;
+} 
+section{
+    display: flex;
+    justify-content:space-around;
+}
+.droite{
+    width: 50%;
+}
+#router{
+    width: 100%;
+}
+.gauche{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 6rem;
+    height: 150px;
+}
+.Stitre{
+    font-size: 2rem;
+    color: blue;
+}
+p{
+    font-size: 0.8rem;
+}
+.foot{
+    border: 2px solid gold;
+    background-color: black;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.in button{
+    background: color #3871da;
+    color: white;
+    border-radius: 9px;
+    height: 48px;
+    width: 140px;
+}
+.left{
+    text-align: center;
+}
